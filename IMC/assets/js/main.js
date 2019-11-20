@@ -1,4 +1,4 @@
-// Capturar evento de submit do formulário
+// Capturar evento ao enviar formulário
 const form = document.querySelector('#formulario');
 
 form.addEventListener('submit', (e) => {
