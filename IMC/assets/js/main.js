@@ -50,11 +50,6 @@ function getImc (peso, altura) {
   return imc.toFixed(2);
 }
 
-function criaP () {
-  const p = document.createElement('p');
-  return p;
-}
-
 function setResultado (msg, isValid) {
   const resultado = document.querySelector('#result');
   resultado.innerHTML = '';
